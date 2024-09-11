@@ -1,0 +1,68 @@
+body {
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
+}
+
+
+header {
+    border-bottom: solid 2px rgb(22, 19, 204);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(22, 19, 204);
+}
+
+.chamada {
+    background: rgb(66, 10, 18);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.categoria-musicas {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria-musicas {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 40px;
+}
+
+
+.categoria-musicas img {
+   opacity: 0,5; 
+   height: 125px;
+}
+
+.categoria-musicas img:hover {
+  opacity: 1.0;  
+border: 1px solid blueviolet;
+}
+
+.categoria h2 {
+    color: rgb(22, 19, 204);
+}
